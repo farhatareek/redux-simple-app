@@ -27,6 +27,7 @@ export default function Counter() {
     }
   return (
    <>
+   <div>  react redux simple counter app</div>
    <button onClick={handlerIncreament}>Increamnet</button>
    <button  onClick={handlerDecreament}>decreament</button>
    <p>{count} </p>
